@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
 :root{
-    background-color:  #F2F5EA;
+    background-color:  #535451;
 }
+
+.responsive-box {
+    width: 80%; /* 80% of parent width */
+    max-width: 600px; /* Maximum width */
+    height: auto; /* Maintain aspect ratio */
+    padding: 2rem; /* Responsive padding */
+    background-color: lightblue;
+  }
