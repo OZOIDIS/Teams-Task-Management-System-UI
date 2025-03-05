@@ -6,7 +6,7 @@ function BoardPage()
 {
     return(
         <>
-            <div className="flex flex-row justify-between content-around gap-1 ms-4 my-4 border-0 p-4 bg-[#F2F5EA]">    
+            <div className="flex flex-row justify-between content-around gap-1 m-4 p-10 border-2 rounded-xl bg-[#F2F5EA]">    
                 <div className="basis-1/6 border-1">
                     <Nav />
                 </div>
